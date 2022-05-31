@@ -115,4 +115,4 @@ app.delete('/api/users/:id', (req,res) => {
     res.json(user)
 })
 
-app.listen(port, () => console.log("Servidor rodando local na porta 3000"));
+app.listen(port, () => console.log(`Servidor rodando local na porta ${port}` ));
